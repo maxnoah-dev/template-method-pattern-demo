@@ -1,0 +1,43 @@
+# Build
+bin/
+obj/
+out/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code / Cursor
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Output từ chương trình (Bài 3)
+output.csv
+output.json
+
+# OS
+Thumbs.db
+.DS_Store
